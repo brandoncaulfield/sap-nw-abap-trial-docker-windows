@@ -54,13 +54,6 @@ docker run -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h vhcalnplci -
 9. Once the SAP system is installed successfully run the following commands:
 
 ```sh
-docker start -i nwabap752
-/usr/sbin/uuidd
-```
-
-10. Once your Docker system is running you can start the SAP system with the commands:
-
-```sh
 su npladm
 startsap ALL
 ```
