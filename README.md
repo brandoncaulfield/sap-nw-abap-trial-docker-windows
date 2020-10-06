@@ -2,6 +2,7 @@
 
 This guide outlines how to install the SAP NW ABAB Developer Trial 7.52 SP04 using Docker on a Windows 10 machine.
 
+
 ## Steps to install SAP ABAP Trial using Docker on Windows
 1. Clone this GitHub repo
 ```sh
@@ -9,7 +10,9 @@ git clone https://github.com/brandoncaulfield/sap-nw-abap-trial-docker-windows
 ```
 
 2. Create a new folder in the local repo folder called **sapdownload**
+
 3. Copy the extracted rar files to the **sapdownload** folder
+
 4.  Open Command Prompt or PowerShell and navigate to your newly cloned repo folder and run the docker build command:
 ```sh
 docker build -t nwabap:7.52 .
