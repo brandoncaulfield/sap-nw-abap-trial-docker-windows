@@ -51,7 +51,7 @@ docker run -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h vhcalnplci -
 ./install.sh
 ```
 
-9. Once the SAP system is installed successfully run the following commands:
+9. Once the SAP system is installed successfully start the new SAP system by running the following commands:
 
 ```sh
 su npladm
