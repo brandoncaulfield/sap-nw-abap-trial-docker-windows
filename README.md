@@ -1,6 +1,6 @@
 # SAP NW ABAP Trial in Docker on Windows
 
-This guide outlines how to install the SAP NW ABAB Developer Trial 7.52 SP04 using Docker on a Windows 10 machine.
+This guide outlines how to install the SAP NW ABAB Developer Trial 7.51+ using Docker on a Windows 10 machine.
 
 
 ### Credit to the following people for the steps and the docker file:
