@@ -108,7 +108,3 @@ These steps were copied directly from Nabi Zamani's [GitHub Repo](https://github
 [Nabi Zamani](https://github.com/nzamani/sap-nw-abap-trial-docker)
 
 [Gregor Wolf](https://bitbucket.org/gregorwolf/dockernwabap750/src/25ca7d78266bef8ed41f1373801fd5e63e0b9552/Dockerfile?at=master&fileviewer=file-view-default)
-=======
-* Tobias Hofmann - https://github.com/tobiashofmann/sap-nw-abap-docker.
-* Nabi Zamani - https://github.com/nzamani/sap-nw-abap-trial-docker
-* Gregor Wolf - https://bitbucket.org/gregorwolf/dockernwabap750/src/25ca7d78266bef8ed41f1373801fd5e63e0b9552/Dockerfile?at=master&fileviewer=file-view-default
