@@ -21,15 +21,13 @@ git clone https://github.com/brandoncaulfield/sap-nw-abap-trial-docker-windows
 
 ```
 
-2. Create a folder called **NW752** and copy the Dockerfile form the cloned repo to it.
+2. Downlaod the [SAP NW ABAP Trial .rar files](https://developers.sap.com/trials-downloads.html)
 
-3. Downlaod the [SAP NW ABAP Trial .rar files](https://developers.sap.com/trials-downloads.html) :
+3. Create a new folder in the local repo folder that you just cloned called **sapdownload**
 
-4. Create a new folder (in the **NW752** folder) called **sapdownload**
+4. Copy the extracted rar files to the **sapdownload** folder
 
-5. Copy the extracted rar files to the **sapdownload** folder
-
-5. Open Command Prompt or PowerShell and navigate to the **NW752** folder and run the docker build command:
+5. Open Command Prompt or PowerShell and navigate to the local repo folder and run the docker build command:
 
 ```sh
 docker build -t nwabap:7.52 .
