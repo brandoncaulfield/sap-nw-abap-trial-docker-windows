@@ -12,7 +12,7 @@ This guide outlines how to install the SAP NW ABAB Developer Trial 7.52 SP04 usi
 git clone https://github.com/brandoncaulfield/sap-nw-abap-trial-docker-windows
 
 ```
- 
+
 2. Downlaod the [SAP NW ABAP Trial .rar files](https://developers.sap.com/trials-downloads.html) :
 
 3. Create a new folder in the local repo folder called **sapdownload**
@@ -21,14 +21,6 @@ git clone https://github.com/brandoncaulfield/sap-nw-abap-trial-docker-windows
 
 5. Open Command Prompt or PowerShell and navigate to your newly cloned repo folder and run the docker build command:
 
-<<<<<<< HEAD
-=======
-2. Create a new folder in the local repo folder called **sapdownload**
-
-3. Copy the extracted rar files to the **sapdownload** folder
-
-4.  Open Command Prompt or PowerShell and navigate to your newly cloned repo folder and run the docker build command:
->>>>>>> fc32011e7f827223d096b5ae9d2e1564a5558002
 ```sh
 docker build -t nwabap:7.52 .
 ```
@@ -117,7 +109,6 @@ These steps were copied directly from Nabi Zamani's [GitHub Repo](https://github
 
 
 ## Credit to the following people for the steps and the docker file:
-<<<<<<< HEAD
 
 [Tobias Hofmann](https://github.com/tobiashofmann/sap-nw-abap-docker)
 
@@ -128,4 +119,3 @@ These steps were copied directly from Nabi Zamani's [GitHub Repo](https://github
 * Tobias Hofmann - https://github.com/tobiashofmann/sap-nw-abap-docker.
 * Nabi Zamani - https://github.com/nzamani/sap-nw-abap-trial-docker
 * Gregor Wolf - https://bitbucket.org/gregorwolf/dockernwabap750/src/25ca7d78266bef8ed41f1373801fd5e63e0b9552/Dockerfile?at=master&fileviewer=file-view-default
->>>>>>> fc32011e7f827223d096b5ae9d2e1564a5558002
