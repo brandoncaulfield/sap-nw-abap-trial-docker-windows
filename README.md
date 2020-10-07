@@ -54,7 +54,7 @@ sysctl vm.max_map_count
 docker run -p 8000:8000 -p 44300:44300 -p 3300:3300 -p 3200:3200 -h vhcalnplci --name nwabap752 -it nwabap:7.52 /bin/bash
 ```
 
-8. Once your container is running you need to begin installing the SAP system. This could take a while so be patient! :)
+8. Once your container is running you need to begin installing the SAP system. The password you select during the installation should be at least 8 characters long. This could take a while so be patient! :)
 
 ```sh
 /usr/sbin/uuidd
